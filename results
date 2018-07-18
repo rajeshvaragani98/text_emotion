@@ -1,0 +1,22 @@
+for 3 class classification: 
+
+mlp         : 55.92 %
+lstm(128)   : 70.47 %
+lstm(256)   : 69.06 %
+lstm(100)   : 69.17 %
+gru (128)   : 70.80 %
+rcnn(100,100):71.14 %
+
+for 2 class classification :
+mlp          :   72.21 %
+lstm 128     :   82.40 %
+gru  128     :   82.62 %
+rcnn(100,100):   83.00 %
+
+
+finetuning on the previous 2 class models on stress data and testing.
+
+mlp           : 
+lstm(128)     :
+gru(128)      :
+rcnn(100,100) :
